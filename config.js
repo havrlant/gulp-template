@@ -16,7 +16,7 @@ module.exports = {
             sourceMaps: "./"
         },
         images: {
-            inputFiles: ["./src/images/**/*.png"],
+            inputFiles: ["./src/images/**/*.{png,gif,jpg}"],
             outputDir: distDir
         },
         assets: {
