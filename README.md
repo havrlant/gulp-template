@@ -6,3 +6,5 @@ $ cd gulp-template
 $ npm install
 $ npm start
 ```
+
+Use `npm start build` to just build content.  
