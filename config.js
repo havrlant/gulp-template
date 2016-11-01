@@ -22,5 +22,8 @@ module.exports = {
     },
     dist: {
         dir: distDir
+    },
+    server: {
+        port: 8080
     }
 };
