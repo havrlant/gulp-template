@@ -15,8 +15,12 @@ module.exports = {
             outputFile: "styles.min.css",
             sourceMaps: "./"
         },
+        images: {
+            inputFiles: ["./src/images/**/*.png"],
+            outputDir: distDir
+        },
         assets: {
-            inputFiles: ["./src/**/*.png"],
+            inputFiles: ["./src/**/*.pdf"],
             outputDir: distDir
         }
     },
@@ -25,5 +29,6 @@ module.exports = {
     },
     server: {
         port: 8080
-    }
+    },
+    coreGulpTasks: ['javascript', 'html', 'less', 'assets', 'images']
 };

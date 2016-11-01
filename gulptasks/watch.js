@@ -6,5 +6,6 @@ module.exports = function (gulp, config) {
         watch(config.src.html.inputFiles, ['html']);
         watch(config.src.less.inputFiles, ['less']);
         watch(config.src.assets.inputFiles, ['assets']);
+        watch(config.src.images.inputFiles, ['images']);
     });
 };
