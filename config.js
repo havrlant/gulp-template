@@ -12,6 +12,7 @@ module.exports = {
         },
         less: {
             inputFiles: ["./src/less/**/*.less"],
+            watchedFiled: ["./src/less/**/*.less"],
             outputFile: "styles.min.css",
             sourceMaps: "./"
         },

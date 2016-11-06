@@ -11,7 +11,7 @@ module.exports = function (gulp, config) {
             gulp.start('html');
         });
 
-        watch(config.src.less.inputFiles, function () {
+        watch(config.src.less.watchedFiled || config.src.less.inputFiles, function () {
             gulp.start('less');
         });
 
