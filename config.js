@@ -21,8 +21,9 @@ module.exports = {
             outputDir: distDir
         },
         assets: {
-            inputFiles: ["./src/**/*.pdf"],
-            outputDir: distDir
+            inputFiles: ["./src/pdf/*.pdf"],
+            outputDir: distDir,
+            baseDir: "./src"
         }
     },
     dist: {
